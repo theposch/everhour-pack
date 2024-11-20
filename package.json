@@ -1,0 +1,14 @@
+{
+  "name": "everhour-pack",
+  "version": "1.0.0",
+  "description": "Everhour integration for Coda",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx coda build index.ts",
+    "upload": "npx coda upload index.ts",
+    "test": "npx coda validate index.ts"
+  },
+  "dependencies": {
+    "@codahq/packs-sdk": "^1.8.3"
+  }
+}

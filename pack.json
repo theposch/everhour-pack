@@ -1,0 +1,17 @@
+{
+    "name": "Everhour",
+    "description": "Connect Everhour time tracking with your Coda docs",
+    "type": "pack",
+    "packVersion": "1.0.0",
+    "minimumSchemaVersion": "1.5.0",
+    "defaultAuthentication": {
+      "type": "header_bearer",
+      "instructionsUrl": "https://everhour.com/developers#authentication"
+    },
+    "networkDomains": ["api.everhour.com"],
+    "formulaNamespace": "Everhour",
+    "categories": ["productivity"],
+    "formats": {},
+    "sourceUrl": "https://github.com/your-repo/everhour-pack",
+    "timeoutSeconds": 15
+  }
